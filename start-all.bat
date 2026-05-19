@@ -13,7 +13,15 @@ echo Starting Stirling PDF...
 cd /d C:\docker\stirling-pdf
 docker compose up -d
 
-echo All services started!
+echo Starting Dozzle...
+cd /d C:\docker\dozzle
+docker compose up -d
 
+echo Starting Nginx Proxy Manager...
+cd /d C:\docker\proxy.home
+docker compose up -d
+
+echo.
+echo All services started!
 pause
 ```

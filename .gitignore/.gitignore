@@ -9,3 +9,6 @@ database/
 
 node_modules/
 
+*.log
+logs/
+**/logs/
