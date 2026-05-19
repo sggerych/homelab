@@ -15,7 +15,7 @@ echo Adding files...
 git add .
 
 echo.
-set /p msg=Enter commit message:
+set msg=auto update
 
 echo.
 echo Saving commit...
