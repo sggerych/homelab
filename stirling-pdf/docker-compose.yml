@@ -1,0 +1,11 @@
+services:
+  stirling-pdf:
+    image: stirlingtools/stirling-pdf:latest
+    container_name: stirling-pdf
+    restart: unless-stopped
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./training-data:/usr/share/tessdata
+      - ./configs:/configs
+      - ./logs:/logs

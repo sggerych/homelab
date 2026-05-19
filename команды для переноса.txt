@@ -1,0 +1,8 @@
+cd C:\docker\homepage
+docker compose up -d
+
+cd C:\docker\uptime-kuma
+docker compose up -d
+
+cd C:\docker\stirling-pdf
+docker compose up -d

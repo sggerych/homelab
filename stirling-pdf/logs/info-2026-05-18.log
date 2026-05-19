@@ -1,0 +1,167 @@
+2026-05-18 13:49:31,054 INFO s.s.S.SPDFApplication [main] Additional features in jar
+2026-05-18 13:49:31,056 INFO s.s.c.c.ConfigInitializer [main] Current settings file line count: 0
+2026-05-18 13:49:31,061 INFO s.s.c.c.ConfigInitializer [main] Created settings file from template
+2026-05-18 13:49:31,063 INFO s.s.c.c.ConfigInitializer [main] Created custom_settings file: ./configs/custom_settings.yml
+2026-05-18 13:49:31,063 INFO s.s.S.SPDFApplication [main] Settings file: ./configs/settings.yml
+2026-05-18 13:49:31,064 INFO s.s.S.SPDFApplication [main] Custom settings file: ./configs/custom_settings.yml
+2026-05-18 13:49:31,459 INFO s.s.S.SPDFApplication [main] Starting SPDFApplication v2.10.1 using Java 25.0.2 with PID 355 (/app/app.jar started by ubuntu in /app)
+2026-05-18 13:49:31,460 INFO s.s.S.SPDFApplication [main] The following 1 profile is active: "security"
+2026-05-18 13:49:33,806 INFO s.s.S.c.MultipartConfiguration [main] Using default multipart file upload limit: 2000MB
+2026-05-18 13:49:34,801 INFO s.s.p.s.c.DatabaseConfig [main] Using default H2 database
+2026-05-18 13:49:37,663 INFO s.s.p.s.s.KeyPersistenceService [main] No existing keys found in directory, generating new keypair
+2026-05-18 13:49:37,812 INFO s.s.p.s.s.KeyPersistenceService [main] Generated and stored new JWT keypair: jwt-key-2026-05-18-134937
+2026-05-18 13:49:38,025 INFO s.s.p.s.s.DatabaseService [main] Source directory does not exist: configs/db/backup
+2026-05-18 13:49:38,632 INFO s.s.c.c.TempFileConfiguration [main] Created temporary directory: /tmp/stirling-pdf/stirling-pdf
+2026-05-18 13:49:38,649 INFO s.s.c.c.RuntimePathConfig [main] Registered watched folder path: /app/pipeline/watchedFolders
+2026-05-18 13:49:38,649 INFO s.s.c.c.RuntimePathConfig [main] Using Tesseract data path: /usr/share/tesseract-ocr/5/tessdata
+2026-05-18 13:49:38,672 WARN s.s.S.c.ExternalAppDepConfig [virtual-54] Missing dependency: rar - Disabling group: rar (Affected features: PDF To Cbr)
+2026-05-18 13:49:38,675 INFO s.s.S.c.ExternalAppDepConfig [virtual-62] qpdf 12.3.2 meets minimum 12.0.0
+2026-05-18 13:49:39,577 INFO s.s.S.c.ExternalAppDepConfig [virtual-64] WeasyPrint 68.1.0 meets minimum 58.0.0
+2026-05-18 13:49:39,826 INFO s.s.S.c.EndpointConfiguration [main] Disabled tool groups: rar (endpoints may have alternative implementations)
+2026-05-18 13:49:39,826 INFO s.s.S.c.EndpointConfiguration [main] Disabled functional groups: enterprise
+2026-05-18 13:49:39,827 INFO s.s.S.c.EndpointConfiguration [main] Total disabled endpoints: 2. Disabled endpoints: pdf-to-cbr, url-to-pdf
+2026-05-18 13:49:40,180 INFO s.s.S.s.VeraPDFService [main] VeraPDF Greenfield initialized successfully
+2026-05-18 13:49:40,221 INFO s.s.S.s.PdfJsonFallbackFontService [main] Using fallback font location: classpath:/static/fonts/NotoSans-Regular.ttf
+2026-05-18 13:49:40,224 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] CFF conversion enabled, checking tool availability...
+2026-05-18 13:49:40,228 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] Python command '/opt/venv/bin/python3' is available
+2026-05-18 13:49:40,231 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] FontForge command 'fontforge' is available
+2026-05-18 13:49:40,232 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] Selected CFF converter method: python
+2026-05-18 13:49:40,799 INFO s.s.S.s.p.t.l.Type3FontLibrary [main] [TYPE3] Loaded 61 Type3 library entries (signatures=81, aliases=64) from classpath:/type3/library/index.json
+2026-05-18 13:49:41,049 INFO s.s.c.s.MobileScannerService [main] Mobile scanner temp directory: /tmp/stirling-pdf/stirling-mobile-scanner
+2026-05-18 13:49:41,297 INFO s.s.S.s.CertificateValidationService [main] Loading certificates from Java system trust store
+2026-05-18 13:49:41,310 INFO s.s.S.s.CertificateValidationService [main] Loaded 144 CA certificates from Java system trust store
+2026-05-18 13:49:41,310 INFO s.s.S.s.CertificateValidationService [main] Loading bundled Mozilla CA certificates from resources
+2026-05-18 13:49:41,334 INFO s.s.S.c.w.ReactRoutingController [main] Static files custom path: ./customFiles/static/
+2026-05-18 13:49:41,408 INFO s.s.c.s.TempFileCleanupService [main] Created LibreOffice temp directory: /tmp/stirling-pdf/stirling-pdf/libreoffice
+2026-05-18 13:49:41,408 INFO s.s.c.s.TempFileCleanupService [main] Running in Docker mode, using aggressive cleanup strategy
+2026-05-18 13:49:41,411 INFO s.s.c.s.TempFileCleanupService [main] Startup cleanup complete. Deleted 0 temporary files/directories
+2026-05-18 13:49:41,424 INFO s.s.c.u.FileMonitor [main] Monitoring directory: /app/pipeline/watchedFolders
+2026-05-18 13:49:41,430 INFO s.s.c.u.FileMonitor [main] Registered directory: /app/pipeline/watchedFolders
+2026-05-18 13:49:41,978 INFO s.s.p.s.s.UserService [main] MFA required set to true for user admin {mfaEnabled=false, mfaRequired=false}
+2026-05-18 13:49:42,000 INFO s.s.p.s.s.DatabaseService [main] Database export completed: configs/backup/db/backup_202605181349.sql
+2026-05-18 13:49:42,010 INFO s.s.p.s.s.DatabaseService [main] Checksum for backup_202605181349.sql: cd81df38b65a82e6d6dfdeaa5a933ac7d48d959a166a9fe12b0e993dc4d50499
+2026-05-18 13:49:42,039 INFO s.s.p.s.InitialSecuritySetup [main] Default admin user created: admin
+2026-05-18 13:49:42,103 INFO s.s.p.s.s.UserService [main] MFA required set to true for user STIRLING-PDF-BACKEND-API-USER {mfaEnabled=false, mfaRequired=false}
+2026-05-18 13:49:42,121 INFO s.s.p.s.s.DatabaseService [main] Database export completed: configs/backup/db/backup_202605181349.sql
+2026-05-18 13:49:42,131 INFO s.s.p.s.s.DatabaseService [main] Checksum for backup_202605181349.sql: ece8c752a5e084a60e2340e0c3f296c2c39c93a6850890c9f2e2c7db85268241
+2026-05-18 13:49:42,193 INFO s.s.p.s.s.DatabaseService [main] Database export completed: configs/backup/db/backup_202605181349.sql
+2026-05-18 13:49:42,202 INFO s.s.p.s.s.DatabaseService [main] Checksum for backup_202605181349.sql: 8d9b081fc737595ef9e769240b26754ecb5d7d9f9a99ec98c2d4ad537bee94c5
+2026-05-18 13:49:42,221 INFO s.s.p.s.InitialSecuritySetup [main] Internal API user created: STIRLING-PDF-BACKEND-API-USER
+2026-05-18 13:49:42,226 INFO s.s.p.s.UserLicenseSettingsService [main] Initializing user license settings
+2026-05-18 13:49:42,232 INFO s.s.p.s.UserLicenseSettingsService [main] Existing installation detected. Grandfathering 5 users (current: 1, minimum: 5)
+2026-05-18 13:49:42,234 WARN s.s.p.s.UserLicenseSettingsService [main] GRANDFATHERING LOCKED: 5 users. This value can never be changed.
+2026-05-18 13:49:42,237 INFO s.s.p.s.UserLicenseSettingsService [main] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-18 13:49:42,763 INFO s.s.p.s.c.SecurityConfiguration [main] No CORS allowed origins configured in settings.yml (system.corsAllowedOrigins); allowing all origins.
+2026-05-18 13:49:43,672 INFO s.s.c.s.JobQueue [main] Starting JobQueue lifecycle
+2026-05-18 13:49:43,704 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 13:49:43,705 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 13:49:43,706 INFO s.s.S.SPDFApplication [main] Started SPDFApplication in 12.639 seconds (process running for 13.126)
+2026-05-18 13:49:43,706 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 13:49:43,714 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /v1/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-18 13:49:43,714 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-18 13:49:43,715 INFO s.s.S.SPDFApplication [main] Stirling-PDF running on port: 8080
+2026-05-18 13:49:43,715 INFO s.s.p.s.ServerCertificateService [main] Server certificate feature requires Pro or Enterprise license
+2026-05-18 13:49:43,718 INFO s.s.p.s.UserLicenseSettingsService [main] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-18 13:49:43,721 INFO s.s.S.SPDFApplication [main] Stirling-PDF Started.
+2026-05-18 13:49:43,721 INFO s.s.S.SPDFApplication [main] Navigate to http://localhost:8080/
+2026-05-18 14:07:01,509 WARN s.s.p.s.s.KeyPersistenceService [jetty-158] No signing key found in database for keyId: jwt-key-2026-05-18-125608
+2026-05-18 14:07:01,509 WARN s.s.p.s.s.KeyPersistenceService [jetty-141] No signing key found in database for keyId: jwt-key-2026-05-18-125608
+2026-05-18 14:07:01,509 WARN s.s.p.s.s.KeyPersistenceService [jetty-152] No signing key found in database for keyId: jwt-key-2026-05-18-125608
+2026-05-18 14:07:01,510 WARN s.s.p.s.s.JwtService [jetty-158] Key ID jwt-key-2026-05-18-125608 not found in keystore, token may have been signed with an expired key
+2026-05-18 14:07:01,510 WARN s.s.p.s.s.JwtService [jetty-141] Key ID jwt-key-2026-05-18-125608 not found in keystore, token may have been signed with an expired key
+2026-05-18 14:07:01,510 WARN s.s.p.s.s.JwtService [jetty-152] Key ID jwt-key-2026-05-18-125608 not found in keystore, token may have been signed with an expired key
+2026-05-18 14:07:01,539 WARN s.s.p.s.s.KeyPersistenceService [jetty-157] No signing key found in database for keyId: jwt-key-2026-05-18-125608
+2026-05-18 14:07:01,540 WARN s.s.p.s.s.JwtService [jetty-157] Key ID jwt-key-2026-05-18-125608 not found in keystore, token may have been signed with an expired key
+2026-05-18 14:07:02,357 WARN s.s.p.s.s.JwtService [jetty-141] Invalid signature: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2026-05-18 14:07:02,358 WARN s.s.p.s.s.JwtService [jetty-152] Invalid signature: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2026-05-18 14:07:02,357 WARN s.s.p.s.s.JwtService [jetty-158] Invalid signature: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2026-05-18 14:07:02,357 WARN s.s.p.s.s.JwtService [jetty-157] Invalid signature: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2026-05-18 14:07:02,529 WARN s.s.p.s.s.KeyPersistenceService [jetty-163] No signing key found in database for keyId: jwt-key-2026-05-18-125608
+2026-05-18 14:07:02,529 WARN s.s.p.s.s.JwtService [jetty-163] Key ID jwt-key-2026-05-18-125608 not found in keystore, token may have been signed with an expired key
+2026-05-18 14:07:02,534 WARN s.s.p.s.s.JwtService [jetty-163] Invalid signature: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2026-05-18 14:07:02,535 WARN s.s.p.s.c.a.AuthController [jetty-163] Token refresh failed: Invalid signature
+2026-05-18 14:07:05,624 INFO s.s.p.s.c.a.AuthController [jetty-168] Issued WEB token for user 'admin': expiry=1440min (1d), keyRetention=34d
+2026-05-18 14:07:05,624 INFO s.s.p.s.c.a.AuthController [jetty-168] Login successful for user: admin from IP: 172.20.0.1 (desktop: false)
+2026-05-18 14:07:06,027 INFO s.s.p.s.UserLicenseSettingsService [jetty-162] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-18 14:07:06,041 INFO s.s.p.s.UserLicenseSettingsService [jetty-162] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-18 14:07:06,047 INFO s.s.p.s.s.MfaService [jetty-171] MFA required for user admin: false
+2026-05-18 14:07:06,116 INFO s.s.p.s.UserLicenseSettingsService [jetty-180] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-18 14:07:06,124 INFO s.s.p.s.UserLicenseSettingsService [jetty-180] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-18 14:07:09,330 INFO s.s.p.s.s.MfaService [jetty-178] MFA required for user admin: false
+2026-05-18 14:07:09,381 INFO s.s.p.s.UserLicenseSettingsService [jetty-186] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-18 14:07:09,391 INFO s.s.p.s.UserLicenseSettingsService [jetty-186] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-18 14:07:39,796 INFO s.s.p.s.s.DatabaseService [jetty-188] Database export completed: configs/backup/db/backup_202605181407.sql
+2026-05-18 14:07:39,806 INFO s.s.p.s.s.DatabaseService [jetty-188] Checksum for backup_202605181407.sql: 4e6f060229e389dacb08e2f2261fc9f49d854e4054e366098179d419a184589a
+2026-05-18 14:07:39,853 INFO s.s.p.s.s.DatabaseService [jetty-188] Database export completed: configs/backup/db/backup_202605181407.sql
+2026-05-18 14:07:39,862 INFO s.s.p.s.s.DatabaseService [jetty-188] Checksum for backup_202605181407.sql: a486a03e147c07f3024bd58c8bf0f5c0f7ea87123392f14ced2b665d2a588dc6
+2026-05-18 14:07:44,362 WARN s.s.p.s.c.a.AuthController [jetty-231] Invalid password for user: admin from IP: 172.20.0.1
+2026-05-18 14:07:53,539 INFO s.s.p.s.c.a.AuthController [jetty-232] Issued WEB token for user 'admin': expiry=1440min (1d), keyRetention=34d
+2026-05-18 14:07:53,540 INFO s.s.p.s.c.a.AuthController [jetty-232] Login successful for user: admin from IP: 172.20.0.1 (desktop: false)
+2026-05-18 14:07:53,617 INFO s.s.p.s.s.MfaService [jetty-237] MFA required for user admin: false
+2026-05-18 14:07:53,628 INFO s.s.p.s.UserLicenseSettingsService [jetty-210] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-18 14:07:53,635 INFO s.s.p.s.UserLicenseSettingsService [jetty-210] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-18 14:07:53,794 INFO s.s.p.s.s.MfaService [jetty-246] MFA required for user admin: false
+2026-05-18 14:07:53,797 INFO s.s.p.s.UserLicenseSettingsService [jetty-239] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-18 14:07:53,806 INFO s.s.p.s.UserLicenseSettingsService [jetty-239] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-18 14:20:08,870 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 14:20:08,871 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 14:20:08,871 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 14:50:23,249 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 14:50:23,250 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 14:50:23,250 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 15:20:34,568 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 15:20:34,569 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 15:20:34,569 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 15:50:42,137 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 15:50:42,138 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 15:50:42,138 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 16:20:47,442 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 16:20:47,443 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 16:20:47,443 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 16:50:50,087 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 16:50:50,087 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 16:50:50,088 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 17:20:50,303 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 17:20:50,304 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 17:20:50,304 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 17:50:49,083 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 17:50:49,084 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 17:50:49,085 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 18:20:46,446 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 18:20:46,447 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 18:20:46,447 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 18:50:42,841 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 18:50:42,841 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 18:50:42,842 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 19:20:36,995 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 19:20:36,996 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 19:20:36,997 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 19:50:29,400 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 19:50:29,401 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 19:50:29,401 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 20:20:12,059 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 20:20:12,060 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 20:20:12,060 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 20:49:29,383 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 20:49:29,384 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 20:49:29,385 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 21:18:37,915 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 21:18:37,916 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 21:18:37,916 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 21:47:39,705 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 21:47:39,706 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 21:47:39,706 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 22:16:35,614 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 22:16:35,615 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 22:16:35,615 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 22:45:24,942 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 22:45:24,942 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 22:45:24,943 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 23:14:09,089 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 23:14:09,090 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 23:14:09,091 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 23:42:46,573 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-18 23:42:46,574 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-18 23:42:46,574 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-18 23:52:32,502 INFO s.s.p.s.s.DatabaseService [scheduled-vt-8311] Database export completed: configs/backup/db/backup_202605182352.sql
+2026-05-18 23:52:32,514 INFO s.s.p.s.s.DatabaseService [scheduled-vt-8311] Checksum for backup_202605182352.sql: a486a03e147c07f3024bd58c8bf0f5c0f7ea87123392f14ced2b665d2a588dc6

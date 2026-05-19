@@ -1,0 +1,50 @@
+[2026-05-18T13:33:01.112Z] info: kubernetes.yaml was copied to the config folder
+[2026-05-18T13:34:19.190Z] info: widgets.yaml was copied to the config folder
+[2026-05-18T13:34:19.206Z] info: docker.yaml was copied to the config folder
+[2026-05-18T13:34:19.238Z] info: bookmarks.yaml was copied to the config folder
+[2026-05-18T13:34:19.243Z] info: proxmox.yaml was copied to the config folder
+[2026-05-18T13:34:19.266Z] info: custom.css was copied to the config folder
+[2026-05-18T13:34:19.270Z] info: custom.js was copied to the config folder
+[2026-05-18T13:34:19.413Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-18T13:48:49.974Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-18T14:00:14.101Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:00:14.101Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:00:14.106Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:00:14.107Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:00:14.607Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:00:14.608Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:00:19.058Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:00:19.059Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:00:25.949Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:00:25.950Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:00:27.040Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:00:27.040Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:00:42.295Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:00:42.296Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:00:42.314Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:00:42.314Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:00:42.459Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+[2026-05-18T14:00:42.568Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:00:42.568Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:00:46.314Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:00:46.314Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:00:47.509Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:00:47.510Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:00:49.434Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:00:49.435Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:03:26.999Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:03:26.999Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:03:27.003Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:03:27.003Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:03:27.474Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:03:27.475Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:03:29.613Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:03:29.613Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:03:32.410Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:03:32.410Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:03:38.682Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:03:38.683Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:03:40.037Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:03:40.038Z] error: TypeError: b[c].forEach is not a function
+[2026-05-18T14:03:46.657Z] error: Failed to load services.yaml, please check for errors
+[2026-05-18T14:03:46.657Z] error: TypeError: b[c].forEach is not a function

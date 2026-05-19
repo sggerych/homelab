@@ -1,0 +1,30 @@
+- Мои сервисы:
+    - Portainer:
+        href: https://localhost:9443
+        description: Управление Docker
+        icon: portainer.png
+
+    - Uptime Kuma:
+        href: http://localhost:3001
+        description: Мониторинг сервисов
+        icon: uptime-kuma.png
+
+    - Stirling PDF:
+        href: http://localhost:8081
+        description: Работа с PDF
+        icon: stirling-pdf.png
+
+    - File Browser:
+        href: http://localhost:8082
+        description: Файловый менеджер
+        icon: filebrowser.png
+
+    - dozzle:
+        href: http://localhost:8083
+        description: доззле
+        icon: dozzle.png
+
+    - proxy.home:
+        href: http://localhost:81
+        description: оформление адресов
+        icon: proxy.home.png
