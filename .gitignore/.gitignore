@@ -1,0 +1,11 @@
+
+logs/
+*.log
+
+data/logs/
+
+database/
+*.db
+
+node_modules/
+

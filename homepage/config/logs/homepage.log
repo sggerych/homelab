@@ -48,3 +48,4 @@
 [2026-05-18T14:03:40.038Z] error: TypeError: b[c].forEach is not a function
 [2026-05-18T14:03:46.657Z] error: Failed to load services.yaml, please check for errors
 [2026-05-18T14:03:46.657Z] error: TypeError: b[c].forEach is not a function
+[2026-05-19T12:34:14.664Z] info: 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙

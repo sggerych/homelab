@@ -34,3 +34,63 @@
 2026-05-19 05:20:52,818 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
 2026-05-19 05:20:52,818 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
 2026-05-19 05:20:52,819 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 05:50:51,767 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 05:50:51,767 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 05:50:51,768 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 06:20:49,074 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 06:20:49,075 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 06:20:49,075 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 06:50:44,868 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 06:50:44,869 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 06:50:44,869 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 07:20:38,194 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 07:20:38,195 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 07:20:38,195 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 07:50:30,225 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 07:50:30,226 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 07:50:30,226 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 08:20:12,556 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 08:20:12,649 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 08:20:12,650 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 08:49:28,722 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 08:49:28,722 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 08:49:28,723 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 09:18:36,956 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 09:18:36,956 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 09:18:36,957 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 09:47:39,277 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 09:47:39,278 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 09:47:39,278 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 10:16:35,112 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 10:16:35,113 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 10:16:35,114 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 10:45:23,815 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 10:45:23,816 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 10:45:23,817 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 11:14:05,898 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 11:14:05,899 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 11:14:05,899 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 11:42:41,483 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 11:42:41,484 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 11:42:41,484 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 12:11:10,891 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 12:11:10,892 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 12:11:10,892 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 12:39:34,491 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 12:39:34,492 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 12:39:34,492 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 12:44:17,634 INFO s.s.p.s.s.MfaService [jetty-11468] MFA required for user admin: false
+2026-05-19 12:44:17,702 INFO s.s.p.s.s.MfaService [jetty-11471] MFA required for user admin: false
+2026-05-19 12:44:17,713 INFO s.s.p.s.UserLicenseSettingsService [jetty-11479] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-19 12:44:17,724 INFO s.s.p.s.UserLicenseSettingsService [jetty-11479] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-19 12:44:18,022 INFO s.s.p.s.s.MfaService [jetty-11486] MFA required for user admin: false
+2026-05-19 12:44:18,022 INFO s.s.p.s.UserLicenseSettingsService [jetty-11483] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-19 12:44:18,030 INFO s.s.p.s.UserLicenseSettingsService [jetty-11483] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-05-19 13:07:50,824 INFO s.s.p.s.AuditCleanupService [scheduled-vt-2] Starting audit cleanup for events older than 90 days
+2026-05-19 13:07:51,206 INFO s.s.p.s.AuditCleanupService [scheduled-vt-2] Successfully cleaned up 0 audit events older than 2026-02-18T13:07:50.825658183Z
+2026-05-19 13:07:52,896 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 13:07:52,896 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 13:07:52,897 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-05-19 13:36:05,738 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-05-19 13:36:05,739 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-05-19 13:36:05,739 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
